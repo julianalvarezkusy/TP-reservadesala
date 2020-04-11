@@ -1,33 +1,44 @@
 .header .navbar {
   margin-top: 1rem;
- 
+
+  position: fixed;
 }
-.nota{
-  height: 1.5rem;
+
+header {
+  margin-top: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 34242;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.nota {
+  height: 150px;
   position: relative;
 }
 
+.slider {
+  min-width: 100%;
+}
 
-
-.img-fluid{
+.img-fluid {
+  min-width: 100%;
   max-width: 100%;
   width: 80rem;
   height: auto;
-} 
+}
 
-.slider{
+.slider {
   margin-top: 1.5rem;
 }
 
-
-
-footer{
+footer {
   margin-top: 0.5rem;
 }
-footer a img{
- 
-  height: 2.5rem;
+footer a img {
+  height: 150px;
   position: relative;
-  
-  
 }
