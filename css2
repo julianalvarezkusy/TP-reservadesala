@@ -56,7 +56,7 @@ header.encabezado .texto-encabezado .intro2-encabezado {
   background-color: #fed136;
   border-color: #fed136;
   font-size: 1rem;
-  padding: 1.3rem 2.6rem;
+  padding: 1.2rem 2.4rem;
   font-family: Montserrat, 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
  
@@ -68,13 +68,28 @@ header.encabezado .texto-encabezado .intro2-encabezado {
     background-color: #fec810 !important;
     border-color: #fec810 !important;
     color: #fff;
-    transition: color .15s
+    transition: color .18s
 }
 
 .btn-primary:active,
 .btn-primary:focus {
     box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important
 }
+
+
+section{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+section .icono{
+  padding: 1.2rem;
+}
+
+section img{
+  width: 4rem;
+}
+
 
 main{
   margin-top: 2rem;
@@ -84,8 +99,16 @@ main .card{
   display: flex;
   align-items: center!important;
   justify-content: center;
- 
 }
+
+main h5{
+  text-align: center;
+}
+main .btn{
+  padding: 0.5rem 1.5rem;  
+  font-size: 0.8em;
+  
+} 
 
 footer{
   margin-top: 0.5rem;
