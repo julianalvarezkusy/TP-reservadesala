@@ -60,32 +60,66 @@
     </div>
   </header>
 
+
+
+  <section class="container">
+    <h2 class="text-center  text-uppercase">¿Cómo funciona?</h2>
+      <div class="row">
+        
+        <div class="col-sm">
+          <div class="icono">
+          <img src="img/guitar.svg" alt="">
+        </div>
+          Elegí tu sala de ensayo, dia y horario
+        </div>
+        <div class="col-sm">
+          <div class="icono">
+            <img src="img/pay.svg" alt="">
+          </div>
+          Elegí tu medio de pago 
+        </div>
+        <div class="col-sm">
+          <div class="icono">
+            <img src="img/electric-guitar.svg" alt="">
+          </div>
+          Listo!
+        </div>
+      </div>
+   
+
+   
+</section>
+
+
+
+
+
   <main class=" container row card-deck mx-auto" >
    
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
+    
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">SALA PEQUEÑA</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
       </div>
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
+
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">SALA MEDIANA</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
       </div>
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
+ 
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">SALA GRANDE</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
       </div>
     </div>
   </main>
